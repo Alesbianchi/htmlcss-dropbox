@@ -89,6 +89,7 @@ header{
 /* La riga con due colonne in basso */
 .riga {
     display: flex;  
+    justify-content: space-around;
 }
 
 .w-30{
@@ -107,6 +108,11 @@ header{
     text-align: start;
     border: 1px solid black;
     flex: 1;
+}
+.piani-mensili{
+    display: flex;
+    gap: 20px;
+    
 }
 
 .colonna-bassa > div {
