@@ -60,10 +60,10 @@ ul li {
 .contenitore {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
     width: 80%; 
     margin: 0 auto; 
+    margin-bottom: 15%;
 }
 
 /* Colonna in alto */
@@ -71,12 +71,12 @@ ul li {
     background-color: lightblue;
     padding: 20px;
     text-align: center;
+    border: 1px solid black;
 }
 
 /* La riga con due colonne in basso */
 .riga {
-    display: flex;
-    
+    display: flex;  
 }
 
 /* Colonne in basso */
@@ -85,4 +85,5 @@ ul li {
     padding: 20px;
     flex: 1; 
     text-align: center;
+    border: 1px solid black;
 }
