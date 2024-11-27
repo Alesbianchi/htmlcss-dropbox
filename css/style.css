@@ -1,5 +1,59 @@
+
+/*regole di impaginazione*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    width: 100%;
+}
+
+
+/*regole header*/
+header{
+    background-color:aqua;
+    height: 100px;
+    display: flex;  
+    align-items: center;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+   /* background-color: yellow;*/
+    /*border: 2px solid black;*/
+    margin: 0 auto; 
+
+}
+
+.second-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 37%;
+   /* background-color: yellow;*/
+    /*border: 2px solid black;*/
+    margin: 0 auto;  
+    
+}
+
+
+
+ul{    
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10%;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
