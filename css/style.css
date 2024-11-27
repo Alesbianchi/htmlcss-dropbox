@@ -12,7 +12,7 @@ main{
 
 /*regole header*/
 header{
-    background-color:aqua;
+    
     height: 100px;
     display: flex;  
     align-items: center;
@@ -42,8 +42,6 @@ header{
     
 }
 
-
-
 ul{    
     display: flex;
     min-width: 200px;
@@ -57,3 +55,34 @@ ul li {
     font-size: 20px;
 }
 
+
+/* regole di contenuto principale */
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+/* Colonna in alto */
+.colonna-alta {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* La riga con due colonne in basso */
+.riga {
+    display: flex;
+    
+}
+
+/* Colonne in basso */
+.colonna-bassa {
+    background-color: lightcoral;
+    padding: 20px;
+    flex: 1; 
+    text-align: center;
+}
