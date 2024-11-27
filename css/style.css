@@ -85,6 +85,17 @@ header{
     text-align: start;
    /* border: 1px solid black;*/
 }
+.contattaci{
+    margin-top: 5%;
+    border: 1px solid black;
+    position: relative;
+}
+
+.contatta{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
 
 /* La riga con due colonne in basso */
 .riga {
@@ -115,9 +126,13 @@ header{
     
 }
 
+.contattaci  p{
+    margin-top: 5%;
+}
 .colonna-bassa > div {
     margin-bottom: 10%; /* margine tra i vari div interni */
 }
+
 .colonna-bassa hr {
     margin-bottom: 20%; /* margine sotto l'hr */
 }
@@ -126,7 +141,7 @@ header{
 }
 
 .colonna-bassa h3 {
-    margin-bottom: 50px; /* margine sotto l'ul */
+    margin-bottom: 20%; /* margine sotto l'ul */
 }
 
 li{
