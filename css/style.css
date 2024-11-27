@@ -42,6 +42,9 @@ header{
     margin: 0 auto;  
     
 }
+a{
+    text-decoration: none;
+}
 
 .main-list{    
     display: flex;
@@ -49,11 +52,13 @@ header{
     justify-content: space-between;
     list-style: none;
     padding: 10%;
+    text-decoration: none;
 }
 
 .main-list li {
     list-style: none;
     font-size: 20px;
+    text-decoration: none;
 }
 
 
@@ -66,7 +71,7 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;  
-    width: 60%; 
+    width: 80%; 
     margin: 0 auto; 
     margin-bottom: 5%;
     padding-top: 5%;
@@ -74,7 +79,28 @@ header{
 }
 
 .principale{
-    width: 50%;
+    width: 70%;
+}
+
+.partner{
+    background-size: contain; 
+    background-repeat: no-repeat;  
+    display: flex;
+    flex-grow: 1;   
+    flex-wrap: wrap;
+}
+
+.img-partner{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.container-img{
+    display: flex;
+    flex-grow: 1;  
+    flex-wrap: wrap;
+     
 
 }
 
@@ -117,14 +143,27 @@ header{
     /*background-color: lightcoral;*/
     padding: 20px;
     text-align: start;
-    border: 1px solid black;
+    
     flex: 1;
 }
+.bordo{
+    border: 1px solid black;
+}
+
 .piani-mensili{
     display: flex;
     gap: 20px;
     
 }
+
+.contenuti{
+    max-width: 30%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 
 .contattaci  p{
     margin-top: 5%;
