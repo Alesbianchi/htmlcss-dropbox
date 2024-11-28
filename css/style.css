@@ -75,6 +75,14 @@ a{
     padding-right: 5%;
 }
 
+.img-jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    max-width: 100%;
+    background-repeat: no-repeat;
+
+}
+
 .main-list li:last-child {
     margin-right: 0; 
 }
@@ -204,6 +212,11 @@ a{
 }
 
 
+.servizi-offerti li{
+    display: flex;
+    margin: 10px 0;
+}
+
 .contattaci  p{
     margin-top: 5%;
 }
@@ -211,12 +224,14 @@ a{
     margin-bottom: 10%; /* margine tra i vari div interni */
 }
 
+.colonna-bassa > span {
+    margin-bottom: 10%; /* margine tra i vari div interni */
+}
+
 .colonna-bassa  hr{
     margin-bottom: 20%; /* margine sotto l'hr */
 }
-.colonna-bassa > ul {
-    margin-top: 30%; /* margine sopra l'ul */
-}
+
 
 .colonna-bassa h3 {
     margin-bottom: 20%; /* margine sotto l'ul */
@@ -234,6 +249,9 @@ li{
 .colonna-bassa .button {
     margin-bottom: 20px; /* margine sotto il pulsante */
 }
+ul li{
+    list-style: none;
+}
 
 .title{
     text-align: center;
@@ -241,14 +259,13 @@ li{
     border-top: 1px solid white;
 }
 
-
-.img-jumbo{
-    background-image: url(../img/jumbo.png);
-    background-size: contain;
-    max-width: 100%;
-    background-repeat: no-repeat;
-
+.last-title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
 }
+
+
 
 /* regole font*/
 h1{
@@ -280,6 +297,7 @@ p, h2, input{
     text-decoration: none;
 }
 
+
 .small-img{
     background-image: url(../img/business-feature-switching-tools.png);
     background-color: #007bff;
@@ -301,5 +319,9 @@ footer{
 .last-end{
     color: #fff;
     border-top: 1px solid #fff;    
+}
+
+.fa-solid{
+    padding-right: 5%;
 }
 
