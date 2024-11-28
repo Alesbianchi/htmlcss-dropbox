@@ -138,12 +138,15 @@ a{
 .img-partner{
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
+    width: 100%;
+}
+.min-layout{
+    font-size: 25px;
+    margin-top: 100px;
 }
 
 .container-img{
     display: flex;
-    flex-grow: 1;  
     flex-wrap: wrap; 
 }
 
@@ -183,7 +186,16 @@ a{
 .w-70{
     width: 60%;
 }
-
+.custom-input {
+    appearance: none;
+    padding: 5px;
+    border: 5px solid #0061fe;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.custom-input:checked {
+    background-color: #0061fe;
+}
 
 /* Colonne in basso */
 .colonna-bassa {
@@ -191,7 +203,7 @@ a{
     padding: 20px;
     text-align: start;
     flex: 1;
-    
+    align-items: flex-start;
 }
 .bordo{
     border: 1px solid black;
@@ -209,6 +221,7 @@ a{
     align-items: left;
     flex-direction: column;
     justify-content: flex-start;
+    
 }
 
 
@@ -264,7 +277,13 @@ ul li{
     margin-bottom: 40px;
     font-size: 40px;
 }
+.link-sottolineato{
+    border-bottom: 3px solid white;
+}
 
+.link-sottolineato:hover{
+    border-bottom: 3px solid black;
+}
 
 
 /* regole font*/
