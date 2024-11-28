@@ -100,6 +100,7 @@ a{
 /* regole di contenuto principale */
 .bg-img{
     background-color: rgb(7, 175, 216);
+    
 }
 
 .contenitore {
@@ -163,6 +164,10 @@ a{
     justify-content: space-around;
 }
 
+.end{
+    color: #fff;
+}
+
 .w-30{
     width: 30%;
 }
@@ -206,7 +211,7 @@ a{
     margin-bottom: 10%; /* margine tra i vari div interni */
 }
 
-.colonna-bassa hr {
+.colonna-bassa  hr{
     margin-bottom: 20%; /* margine sotto l'hr */
 }
 .colonna-bassa > ul {
@@ -233,14 +238,14 @@ li{
 .title{
     text-align: center;
     min-height: 20px;
-
+    border-top: 1px solid white;
 }
 
 
 .img-jumbo{
     background-image: url(../img/jumbo.png);
     background-size: contain;
-    width: 100%;
+    max-width: 100%;
     background-repeat: no-repeat;
 
 }
@@ -293,5 +298,8 @@ footer{
     background-color: black; 
 }   
 
-
+.last-end{
+    color: #fff;
+    border-top: 1px solid #fff;    
+}
 
