@@ -42,7 +42,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;*/
     width: 37%;
    /* background-color: yellow;*/
     /*border: 2px solid black;*/
@@ -51,6 +51,7 @@ header{
 }
 a{
     text-decoration: none;
+    display: block;
 }
 
 .main-list{    
@@ -102,6 +103,7 @@ a{
     text-decoration: none; 
     font-size: 18px; 
     border-radius: 5px; 
+    display: block;
 }
 
 
@@ -227,7 +229,7 @@ a{
 
 .servizi-offerti li{
     display: flex;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .contattaci  p{
@@ -256,7 +258,7 @@ li{
 
 
 .colonna-bassa ul {
-    margin-bottom: 50px; /* margine sotto l'ul */
+    /* margine sotto l'ul */
 }
 
 .colonna-bassa .button {
@@ -314,6 +316,10 @@ p, h2, input{
     vertical-align: 1.5;
     padding: 5px 5px;
     text-decoration: none;
+}
+
+.free-trial{
+    margin-top: 20%;
 }
 
 
