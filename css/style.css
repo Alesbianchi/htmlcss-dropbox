@@ -8,15 +8,22 @@
 }
 
 main{
-    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 
 /*regole header*/
 header{
-    height: 100px;
+    height: 50px;
+    background-color:#fff;
+    position: fixed;
+    width: 100%;
+    z-index: 900;
     display: flex;  
     align-items: center;
+    box-shadow: 3px 3px 3px #c5c5c5;
+    justify-content: space-between;
 }
 
 .main-nav{
@@ -48,17 +55,45 @@ a{
 
 .main-list{    
     display: flex;
-    min-width: 200px;
+    
+    padding-left: 0;
+    margin: 0;
     justify-content: space-between;
-    list-style: none;
-    padding: 10%;
     text-decoration: none;
+    margin: 0;
 }
 
 .main-list li {
     list-style: none;
     font-size: 20px;
     text-decoration: none;
+    margin-right: 20px;
+    padding-top: 5%;
+}
+
+.logo-small{
+    padding-right: 5%;
+}
+
+.main-list li:last-child {
+    margin-right: 0; 
+}
+.main-nav, .second-nav {
+    display: flex;
+    align-items: center;
+}
+.main-list a {
+    text-decoration: none;
+}
+
+.second-nav .button {
+    margin-left: 20px; 
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    border-radius: 5px; 
 }
 
 
@@ -73,13 +108,14 @@ a{
     flex-wrap: wrap;  
     width: 80%; 
     margin: 0 auto; 
-    margin-bottom: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+
+    
 }
 
 .principale{
     width: 70%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .partner{
@@ -99,9 +135,7 @@ a{
 .container-img{
     display: flex;
     flex-grow: 1;  
-    flex-wrap: wrap;
-     
-
+    flex-wrap: wrap; 
 }
 
 /* Colonna in alto */
@@ -143,8 +177,8 @@ a{
     /*background-color: lightcoral;*/
     padding: 20px;
     text-align: start;
-    
     flex: 1;
+    
 }
 .bordo{
     border: 1px solid black;
@@ -241,6 +275,12 @@ p, h2, input{
     text-decoration: none;
 }
 
+.small-img{
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-color: #007bff;
+    z-index: 9999;
+}
+
 
 /* regole footer*/
 
@@ -248,8 +288,8 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;  
-    max-width: 100%; 
-    margin: 0 auto; 
+    max-width: 100%;
+    margin: 0 auto;
     background-color: black; 
 }   
 
