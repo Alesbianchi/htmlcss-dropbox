@@ -220,7 +220,6 @@ a{
 .contenuti{
     max-width: 30%;
     display: flex;
-    align-items: left;
     flex-direction: column;
     justify-content: flex-start;
     
@@ -313,7 +312,7 @@ p, h2, input{
     background-color: rgb(17, 0, 255);
     color: #fff;
     text-align: center;
-    vertical-align: 1.5;
+    vertical-align: 1;
     padding: 5px 5px;
     text-decoration: none;
 }
